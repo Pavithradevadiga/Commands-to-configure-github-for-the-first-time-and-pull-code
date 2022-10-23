@@ -5,13 +5,13 @@ git config --global user.email "your_email@example.com"
 Command1: git init
 (To initialiaze)
 
-Command2: git commit -m "<Commit Sentence>"
-(To commit)
-
-Command3: git add .
+Command2: git add .
 (To add files)
 
-Command4: git remote add origin "<gitrepo url>"
+Command3: git remote add origin "<gitrepo url>"
+
+Command4: git commit -m "<Commit Sentence>"
+(To commit)
 
 Command5: git push origin main --force
-(Push the code)
+(Push the code.main or master can be used)
