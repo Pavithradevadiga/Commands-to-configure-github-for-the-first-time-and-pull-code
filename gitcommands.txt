@@ -15,3 +15,6 @@ Command4: git commit -m "<Commit Sentence>"
 
 Command5: git push origin main --force
 (Push the code.main or master can be used)
+
+Command6: git show-ref
+To show remote refs
