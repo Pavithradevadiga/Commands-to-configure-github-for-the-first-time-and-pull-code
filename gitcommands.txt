@@ -18,3 +18,6 @@ Command5: git push origin main --force
 
 Command6: git show-ref
 To show remote refs
+
+Command 7: git branch
+To check the branch
