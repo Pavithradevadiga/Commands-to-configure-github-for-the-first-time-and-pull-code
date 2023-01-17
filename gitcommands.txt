@@ -24,3 +24,18 @@ To show remote refs
 
 Command 7: git branch
 To check the branch
+
+Lifesavers:
+If you have only main branch on remote,make sure in git also to move to main branch using below command
+git checkout main
+
+then git pull
+git pull origin main
+
+if refuse to merge due to unrelated history then
+git pull origin main --allow-unrelated-histories
+
+and push
+
+
+
