@@ -37,5 +37,8 @@ git pull origin main --allow-unrelated-histories
 
 and push
 
+If you are unable to clone public repository:
+https://stackoverflow.com/questions/21255438/git-permission-denied-publickey-fatal-could-not-read-from-remote-repository
+
 
 
