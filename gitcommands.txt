@@ -40,5 +40,20 @@ and push
 If you are unable to clone public repository:
 https://stackoverflow.com/questions/21255438/git-permission-denied-publickey-fatal-could-not-read-from-remote-repository
 
+From Github:
+…or create a new repository on the command line
+echo "# terraform-potato" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Pavithradevadiga/terraform-potato.git
+git push -u origin main
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/Pavithradevadiga/terraform-potato.git
+git branch -M main
+git push -u origin main
+
 
 
